@@ -1,0 +1,461 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+    <class>MainWindow</class>
+    <widget class="QMainWindow" name="MainWindow">
+        <property name="geometry">
+            <rect>
+                <x>0</x>
+                <y>0</y>
+                <width>777</width>
+                <height>381</height>
+            </rect>
+        </property>
+        <property name="windowTitle">
+            <string>MainWindow</string>
+        </property>
+        <widget class="QWidget" name="centralwidget">
+            <widget class="QPushButton" name="add_button">
+                <property name="geometry">
+                    <rect>
+                        <x>10</x>
+                        <y>20</y>
+                        <width>151</width>
+                        <height>41</height>
+                    </rect>
+                </property>
+                <property name="styleSheet">
+                    <string notr="true">font: 10pt &quot;Verdana&quot;;</string>
+                </property>
+                <property name="text">
+                    <string>Add new employee</string>
+                </property>
+            </widget>
+            <widget class="QPushButton" name="look_up_button">
+                <property name="geometry">
+                    <rect>
+                        <x>170</x>
+                        <y>20</y>
+                        <width>151</width>
+                        <height>41</height>
+                    </rect>
+                </property>
+                <property name="styleSheet">
+                    <string notr="true">font: 10pt &quot;Verdana&quot;;</string>
+                </property>
+                <property name="text">
+                    <string>Look Up Employee</string>
+                </property>
+            </widget>
+            <widget class="QPushButton" name="update_button">
+                <property name="geometry">
+                    <rect>
+                        <x>330</x>
+                        <y>20</y>
+                        <width>141</width>
+                        <height>41</height>
+                    </rect>
+                </property>
+                <property name="styleSheet">
+                    <string notr="true">font: 10pt &quot;Verdana&quot;;</string>
+                </property>
+                <property name="text">
+                    <string>Update Employee</string>
+                </property>
+            </widget>
+            <widget class="QPushButton" name="delete_button">
+                <property name="geometry">
+                    <rect>
+                        <x>480</x>
+                        <y>20</y>
+                        <width>141</width>
+                        <height>41</height>
+                    </rect>
+                </property>
+                <property name="styleSheet">
+                    <string notr="true">font: 10pt &quot;Verdana&quot;;</string>
+                </property>
+                <property name="text">
+                    <string>Delete Employee</string>
+                </property>
+            </widget>
+            <widget class="QPushButton" name="quit_button">
+                <property name="geometry">
+                    <rect>
+                        <x>630</x>
+                        <y>20</y>
+                        <width>141</width>
+                        <height>41</height>
+                    </rect>
+                </property>
+                <property name="styleSheet">
+                    <string notr="true">font: 10pt &quot;Verdana&quot;;</string>
+                </property>
+                <property name="text">
+                    <string>Quit</string>
+                </property>
+            </widget>
+            <widget class="QWidget" name="widget" native="true">
+                <property name="geometry">
+                    <rect>
+                        <x>230</x>
+                        <y>80</y>
+                        <width>261</width>
+                        <height>211</height>
+                    </rect>
+                </property>
+                <widget class="QLineEdit" name="department_input">
+                    <property name="geometry">
+                        <rect>
+                            <x>110</x>
+                            <y>90</y>
+                            <width>131</width>
+                            <height>21</height>
+                        </rect>
+                    </property>
+                </widget>
+                <widget class="QLabel" name="label_3">
+                    <property name="geometry">
+                        <rect>
+                            <x>40</x>
+                            <y>50</y>
+                            <width>51</width>
+                            <height>21</height>
+                        </rect>
+                    </property>
+                    <property name="styleSheet">
+                        <string notr="true">font: 10pt &quot;Verdana&quot;;</string>
+                    </property>
+                    <property name="text">
+                        <string>Name</string>
+                    </property>
+                </widget>
+                <widget class="QLabel" name="label_4">
+                    <property name="geometry">
+                        <rect>
+                            <x>10</x>
+                            <y>90</y>
+                            <width>91</width>
+                            <height>21</height>
+                        </rect>
+                    </property>
+                    <property name="styleSheet">
+                        <string notr="true">font: 10pt &quot;Verdana&quot;;</string>
+                    </property>
+                    <property name="text">
+                        <string>Department</string>
+                    </property>
+                </widget>
+                <widget class="QPushButton" name="confirm_button">
+                    <property name="geometry">
+                        <rect>
+                            <x>20</x>
+                            <y>180</y>
+                            <width>121</width>
+                            <height>31</height>
+                        </rect>
+                    </property>
+                    <property name="styleSheet">
+                        <string notr="true">font: 10pt &quot;Verdana&quot;;</string>
+                    </property>
+                    <property name="text">
+                        <string>Add employee</string>
+                    </property>
+                </widget>
+                <widget class="QLineEdit" name="name_input">
+                    <property name="geometry">
+                        <rect>
+                            <x>110</x>
+                            <y>50</y>
+                            <width>131</width>
+                            <height>21</height>
+                        </rect>
+                    </property>
+                </widget>
+                <widget class="QLineEdit" name="id_input">
+                    <property name="geometry">
+                        <rect>
+                            <x>110</x>
+                            <y>10</y>
+                            <width>131</width>
+                            <height>21</height>
+                        </rect>
+                    </property>
+                </widget>
+                <widget class="QLineEdit" name="title_input">
+                    <property name="geometry">
+                        <rect>
+                            <x>110</x>
+                            <y>130</y>
+                            <width>131</width>
+                            <height>21</height>
+                        </rect>
+                    </property>
+                </widget>
+                <widget class="QLabel" name="label_2">
+                    <property name="geometry">
+                        <rect>
+                            <x>60</x>
+                            <y>10</y>
+                            <width>21</width>
+                            <height>21</height>
+                        </rect>
+                    </property>
+                    <property name="styleSheet">
+                        <string notr="true">font: 10pt &quot;Verdana&quot;;</string>
+                    </property>
+                    <property name="text">
+                        <string>ID</string>
+                    </property>
+                </widget>
+                <widget class="QLabel" name="label_5">
+                    <property name="geometry">
+                        <rect>
+                            <x>50</x>
+                            <y>130</y>
+                            <width>31</width>
+                            <height>21</height>
+                        </rect>
+                    </property>
+                    <property name="styleSheet">
+                        <string notr="true">font: 10pt &quot;Verdana&quot;;</string>
+                    </property>
+                    <property name="text">
+                        <string>Title</string>
+                    </property>
+                </widget>
+                <widget class="QPushButton" name="confirm_button_2">
+                    <property name="geometry">
+                        <rect>
+                            <x>50</x>
+                            <y>50</y>
+                            <width>111</width>
+                            <height>31</height>
+                        </rect>
+                    </property>
+                    <property name="styleSheet">
+                        <string notr="true">font: 10pt &quot;Verdana&quot;;</string>
+                    </property>
+                    <property name="text">
+                        <string>Look up</string>
+                    </property>
+                </widget>
+                <widget class="Line" name="line">
+                    <property name="geometry">
+                        <rect>
+                            <x>140</x>
+                            <y>180</y>
+                            <width>20</width>
+                            <height>31</height>
+                        </rect>
+                    </property>
+                    <property name="orientation">
+                        <enum>Qt::Vertical</enum>
+                    </property>
+                </widget>
+                <widget class="QPushButton" name="clear_button">
+                    <property name="geometry">
+                        <rect>
+                            <x>160</x>
+                            <y>180</y>
+                            <width>81</width>
+                            <height>31</height>
+                        </rect>
+                    </property>
+                    <property name="styleSheet">
+                        <string notr="true">font: 10pt &quot;Verdana&quot;;</string>
+                    </property>
+                    <property name="text">
+                        <string>Clear All</string>
+                    </property>
+                </widget>
+            </widget>
+            <widget class="QPushButton" name="purge_button">
+                <property name="geometry">
+                    <rect>
+                        <x>610</x>
+                        <y>300</y>
+                        <width>161</width>
+                        <height>31</height>
+                    </rect>
+                </property>
+                <property name="styleSheet">
+                    <string notr="true">font: 10pt &quot;Verdana&quot;;</string>
+                </property>
+                <property name="text">
+                    <string>Purge all employees</string>
+                </property>
+            </widget>
+        </widget>
+        <widget class="QMenuBar" name="menubar">
+            <property name="geometry">
+                <rect>
+                    <x>0</x>
+                    <y>0</y>
+                    <width>777</width>
+                    <height>23</height>
+                </rect>
+            </property>
+        </widget>
+        <widget class="QStatusBar" name="statusbar"/>
+    </widget>
+    <tabstops>
+        <tabstop>add_button</tabstop>
+        <tabstop>look_up_button</tabstop>
+        <tabstop>update_button</tabstop>
+        <tabstop>delete_button</tabstop>
+        <tabstop>quit_button</tabstop>
+        <tabstop>id_input</tabstop>
+        <tabstop>name_input</tabstop>
+        <tabstop>department_input</tabstop>
+        <tabstop>title_input</tabstop>
+        <tabstop>confirm_button</tabstop>
+        <tabstop>confirm_button_2</tabstop>
+    </tabstops>
+    <resources/>
+    <connections>
+        <connection>
+            <sender>id_input</sender>
+            <signal>returnPressed()</signal>
+            <receiver>confirm_button</receiver>
+            <slot>animateClick()</slot>
+            <hints>
+                <hint type="sourcelabel">
+                    <x>340</x>
+                    <y>131</y>
+                </hint>
+                <hint type="destinationlabel">
+                    <x>323</x>
+                    <y>308</y>
+                </hint>
+            </hints>
+        </connection>
+        <connection>
+            <sender>name_input</sender>
+            <signal>returnPressed()</signal>
+            <receiver>confirm_button</receiver>
+            <slot>animateClick()</slot>
+            <hints>
+                <hint type="sourcelabel">
+                    <x>444</x>
+                    <y>162</y>
+                </hint>
+                <hint type="destinationlabel">
+                    <x>367</x>
+                    <y>302</y>
+                </hint>
+            </hints>
+        </connection>
+        <connection>
+            <sender>department_input</sender>
+            <signal>returnPressed()</signal>
+            <receiver>confirm_button</receiver>
+            <slot>animateClick()</slot>
+            <hints>
+                <hint type="sourcelabel">
+                    <x>388</x>
+                    <y>206</y>
+                </hint>
+                <hint type="destinationlabel">
+                    <x>384</x>
+                    <y>305</y>
+                </hint>
+            </hints>
+        </connection>
+        <connection>
+            <sender>title_input</sender>
+            <signal>returnPressed()</signal>
+            <receiver>confirm_button</receiver>
+            <slot>animateClick()</slot>
+            <hints>
+                <hint type="sourcelabel">
+                    <x>340</x>
+                    <y>251</y>
+                </hint>
+                <hint type="destinationlabel">
+                    <x>347</x>
+                    <y>289</y>
+                </hint>
+            </hints>
+        </connection>
+        <connection>
+            <sender>add_button</sender>
+            <signal>clicked()</signal>
+            <receiver>add_button</receiver>
+            <slot>setFocus()</slot>
+            <hints>
+                <hint type="sourcelabel">
+                    <x>71</x>
+                    <y>79</y>
+                </hint>
+                <hint type="destinationlabel">
+                    <x>101</x>
+                    <y>78</y>
+                </hint>
+            </hints>
+        </connection>
+        <connection>
+            <sender>confirm_button</sender>
+            <signal>clicked()</signal>
+            <receiver>widget</receiver>
+            <slot>update()</slot>
+            <hints>
+                <hint type="sourcelabel">
+                    <x>298</x>
+                    <y>297</y>
+                </hint>
+                <hint type="destinationlabel">
+                    <x>268</x>
+                    <y>277</y>
+                </hint>
+            </hints>
+        </connection>
+        <connection>
+            <sender>confirm_button</sender>
+            <signal>clicked()</signal>
+            <receiver>id_input</receiver>
+            <slot>update()</slot>
+            <hints>
+                <hint type="sourcelabel">
+                    <x>307</x>
+                    <y>310</y>
+                </hint>
+                <hint type="destinationlabel">
+                    <x>380</x>
+                    <y>128</y>
+                </hint>
+            </hints>
+        </connection>
+        <connection>
+            <sender>confirm_button_2</sender>
+            <signal>clicked()</signal>
+            <receiver>widget</receiver>
+            <slot>update()</slot>
+            <hints>
+                <hint type="sourcelabel">
+                    <x>376</x>
+                    <y>172</y>
+                </hint>
+                <hint type="destinationlabel">
+                    <x>232</x>
+                    <y>150</y>
+                </hint>
+            </hints>
+        </connection>
+        <connection>
+            <sender>confirm_button_2</sender>
+            <signal>clicked()</signal>
+            <receiver>id_input</receiver>
+            <slot>update()</slot>
+            <hints>
+                <hint type="sourcelabel">
+                    <x>329</x>
+                    <y>162</y>
+                </hint>
+                <hint type="destinationlabel">
+                    <x>377</x>
+                    <y>128</y>
+                </hint>
+            </hints>
+        </connection>
+    </connections>
+</ui>
